@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css?family=Old+Standard+TT|PT+Mono');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+
+body {
+    
+    background-color: #EEF4ED;
+    margin: 0;
+    width: 100%;
+    
+}
+
+.menu {
+    
+    background-color: white;
+    height: 60px;
+    text-align: right;
+    padding-top: 30px;
+    padding-right: 20px;
+    font-family: 'PT Mono';
+     
+}
+
+.links a {
+    
+    color: orange;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.home {
+
+color: white;
+height: 630px;
+width: 100%;
+font-family: 'Abril Fatface';
+font-size: 9rem;
+margin: 0;
+
+}
+
+#logo {
+    
+ text-align: left;
+ padding-top:90px;   
+}
+
+.aboutme {
+    
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    background-color: white;
+}
+
+.aboutme img {
+    
+    max-width: 300px;
+    max-height: 400px;
+    padding-left: 40px;
+    padding-right: 40px; 
+    
+}
+
+
+.kabuki {
+    
+    height: 600px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 25% 25% 25% 25%;
+}
+
+.kabuki img {
+    height: 600px;
+    margin: 0;
+    max-width: 500px;
+    grid-column: 1/2;
+    padding-left: 50px;
+}
+
+#kabuki_des {
+    
+    grid-column: 2/2;
+    grid-row: 2/4;
+    font-family: 'PT Mono';
+    max-width: 400px;
+    color: #94BFA7;
+    border-top: 3px dashed orange;
+   
+}
+
+.fresher {
+    
+    height: 700px;
+    width: 100%;
+    margin: 0;
+    background-color: orange;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.fresher img {
+    
+    max-height: 300px;
+    padding-left: 90px;
+    padding-right: 90px;
+    grid-row: 2/3;
+}
+
+#fresher_des {
+    
+    font-family: 'PT Mono';
+    color: white;
+    text-align: left;
+    padding-left: 90px;
+    font-size: 2.55rem;
+    max-width:400px;
+    padding-top: 50px;
+    
+}
+
+#fresher_des2 {
+    font-family: 'PT Mono';
+    color: white;
+    grid-column: 1/3;
+    padding-left: 90px;
+    padding-right: 75px;
+    border-top: 3px dashed white;
+    width: 710px;
+
+}
+
+.public_relations {
+
+    height: 470px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    
+    
+}
+
+.public_relations img {
+    
+    max-width: 200px;
+    padding-top: 150px;
+    padding-bottom: 60px; 
+    padding-left: 30px;
+}
+
+#PR_desc {
+    
+    font-family: 'PT Mono';
+    padding-top: 150px;
+    color: grey;
+    width: 600px;
+    height: 300px;
+    padding-left: 30px;
+    padding-top: 150px;
+    border-left: 3px dashed orange;
+}
+
+#PR_desc h { 
+    
+    font-family: 'Abril Fatface';
+    font-size: 2rem;
+}
+
+.PRapp {
+    
+    height: 600px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    font-family: 'PT Mono';
+    color: grey;
+    background-color: orange;
+}
+
+.PRapp img {
+    
+    max-height: 500px;
+    padding-top: 80px;
+    grid-column: 1/4;
+    grid-row: 2/3;
+    padding: 0;
+}
+
+#PRapp_des {
+    
+    padding-top: 200px;
+    padding-left: 200px;
+    color: grey;
+    grid-column: 3/4;
+    grid-row: 1/3;
+    padding-left: 50px;
+    width: 400px;
+}
+
+#PRapp_des h {
+    
+    font-family: 'Abril Fatface';
+    font-size: 2rem;
+    color: #EEF4ED;
+}
+
+
+
+.description {
+    
+    height: 200px;
+    font-family: 'PT Mono';
+    padding-left: 48px;
+    padding-top: 90px;
+    text-align: left; 
+    background-color: white;
+    color: grey;
+    
+}
+
+.description h {
+
+font-family: 'Abril Fatface';
+color: orange;
+font-size: 2rem;
+}
+
+.aboutmepics {
+    
+   height: 400px;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   
+}
+
+.aboutmepics img {
+    
+    width: 400px;
+    height: 400px;
+    padding-left: 30px;
+    
+
+    
+}
+    
